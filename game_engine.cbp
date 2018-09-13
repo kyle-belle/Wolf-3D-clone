@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="wolf3D" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="[DEBUG]WOLF 3D" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-std=c++11" />
+					<Add option="-Og" />
+					<Add option="-g" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="WOLF 3D" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="0" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O3" />
+					<Add option="-std=c++11" />
+				</Compiler>
+				<Linker>
+					<Add option="-O3" />
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-std=c++0x" />
+			<Add option="-Og" />
+			<Add option="-g" />
+			<Add option="-DGLEW_STATIC" />
+			<Add option="-D_GLFW_WIN32" />
+			<Add directory="../wolf3D clone" />
+			<Add directory="GLEW/include" />
+			<Add directory="GLFW/include" />
+		</Compiler>
+		<ResourceCompiler>
+			<Add directory="C:/Users/stuppzzzz/Desktop/wolf3D clone/" />
+		</ResourceCompiler>
+		<Linker>
+			<Add library="C:/Users/stuppzzzz/Documents/wolf3D clone/libglew32.a" />
+			<Add library="C:/Users/stuppzzzz/Documents/wolf3D clone/libglfw3.a" />
+			<Add library="C:/Users/stuppzzzz/Documents/wolf3D clone/libopengl32.a" />
+			<Add library="C:/Users/stuppzzzz/Documents/wolf3D clone/libgdi32.a" />
+			<Add library="GLEW/lib/Release/Win32/glew32s.lib" />
+		</Linker>
+		<Unit filename="TIMER.H" />
+		<Unit filename="bitmap.h" />
+		<Unit filename="call.cpp" />
+		<Unit filename="call.h" />
+		<Unit filename="camera.h" />
+		<Unit filename="display.h" />
+		<Unit filename="doors.h" />
+		<Unit filename="enemies.h" />
+		<Unit filename="engine.h" />
+		<Unit filename="game.cpp" />
+		<Unit filename="game.h" />
+		<Unit filename="index_buffer.cpp" />
+		<Unit filename="index_buffer.h" />
+		<Unit filename="input.cpp" />
+		<Unit filename="input.h" />
+		<Unit filename="level.h" />
+		<Unit filename="main.cpp" />
+		<Unit filename="material.cpp" />
+		<Unit filename="material.h" />
+		<Unit filename="matrices.h" />
+		<Unit filename="mesh.h" />
+		<Unit filename="obj_loader.cpp" />
+		<Unit filename="player.h" />
+		<Unit filename="point_lights.h" />
+		<Unit filename="quaternions.h" />
+		<Unit filename="render_util.h" />
+		<Unit filename="resource_loader.cpp" />
+		<Unit filename="resource_loader.h" />
+		<Unit filename="shader.cpp" />
+		<Unit filename="shader.h" />
+		<Unit filename="shaders.h" />
+		<Unit filename="stbb_image.cpp" />
+		<Unit filename="terrain.h" />
+		<Unit filename="texture.cpp" />
+		<Unit filename="texture.h" />
+		<Unit filename="transform.cpp" />
+		<Unit filename="transform.h" />
+		<Unit filename="vector2f.h" />
+		<Unit filename="vector3f.h" />
+		<Unit filename="vertex_array.cpp" />
+		<Unit filename="vertex_array.h" />
+		<Unit filename="vertex_buffer.cpp" />
+		<Unit filename="vertex_buffer.h" />
+		<Unit filename="vertex_buffer_layout.h" />
+		<Unit filename="vertices.h" />
+		<Extensions>
+			<code_completion>
+				<search_path add="C:\Users\stuppzzzz\Desktop\wolf3D clone\" />
+			</code_completion>
+			<envvars />
+			<debugger />
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

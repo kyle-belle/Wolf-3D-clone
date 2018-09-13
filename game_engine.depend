@@ -1,0 +1,2280 @@
+# depslib dependency file v1.0
+1524381988 source:c:\users\stuppzzzz\desktop\game engine.cpp\main.cpp
+	<iostream>
+	<chrono>
+	<time.h>
+	<GLFW/glfw3.h>
+
+1526748992 source:c:\users\stuppzzzz\desktop\game_engine\main.cpp
+	"display.h"
+	"engine.h"
+	"mesh.h"
+	"obj_loader.h"
+
+1501501581 c:\users\stuppzzzz\desktop\game_engine\glew\include\gl\glew.h
+	<stddef.h>
+	<inttypes.h>
+	<stdint.h>
+	<inttypes.h>
+	<Availability.h>
+	<OpenGL/glu.h>
+	<GL/glu.h>
+
+1523853948 c:\users\stuppzzzz\desktop\game_engine\glfw\include\glfw\glfw3.h
+	<stddef.h>
+	<stdint.h>
+	<GLES/gl.h>
+	<GLES/glext.h>
+	<GLES2/gl2.h>
+	<GLES2/gl2ext.h>
+	<GLES3/gl3.h>
+	<GLES2/gl2ext.h>
+	<GLES3/gl31.h>
+	<GLES2/gl2ext.h>
+	<GLES3/gl32.h>
+	<GLES2/gl2ext.h>
+	<OpenGL/gl3.h>
+	<OpenGL/gl3ext.h>
+	<GL/glcorearb.h>
+	<OpenGL/gl.h>
+	<OpenGL/glu.h>
+	<GL/gl.h>
+	<GL/glext.h>
+	<GL/glu.h>
+	<vulkan/vulkan.h>
+
+1527419966 c:\users\stuppzzzz\desktop\game_engine\display.h
+	"GL/glew.h"
+	"GLFW/glfw3.h"
+	"vertex_array.h"
+	<stdio.h>
+	<string.h>
+
+1527645122 c:\users\stuppzzzz\desktop\game_engine\engine.h
+	<time.h>
+	<thread>
+	<stdio.h>
+	"game.h"
+	"input.h"
+	"render_util.h"
+	"transform.h"
+	"camera.h"
+	<unistd.h>
+	"GLFW/glfw3.h"
+	"texture.h"
+	"material.h"
+	"point_lights.h"
+
+1527651584 c:\users\stuppzzzz\desktop\game_engine\game.h
+	"input.h"
+	"display.h"
+	"vector2f.h"
+	"vector3f.h"
+	"matrices.h"
+	"mesh.h"
+	"shader.h"
+	"resource_loader.h"
+	"obj_loader.h"
+	"vertex_array.h"
+	"vertex_buffer.h"
+	"vertex_buffer_layout.h"
+	"index_buffer.h"
+	"camera.h"
+	"texture.h"
+	"material.h"
+
+1524788734 c:\users\stuppzzzz\desktop\game_engine\input.h
+	<vector>
+	"display.h"
+
+1524458864 c:\users\stuppzzzz\desktop\game_engine\vector2f.h
+	<math.h>
+
+1527341581 c:\users\stuppzzzz\desktop\game_engine\vector3f.h
+	"quaternions.h"
+
+1527333471 c:\users\stuppzzzz\desktop\game_engine\matrices.h
+	"stdio.h"
+
+1527342190 c:\users\stuppzzzz\desktop\game_engine\quaternions.h
+	"math.h"
+
+1527295261 c:\users\stuppzzzz\desktop\game_engine\render_util.h
+	<GL/glew.h>
+
+1526823443 c:\users\stuppzzzz\desktop\game_engine\mesh.h
+	"GL/glew.h"
+	"obj_loader.h"
+	"shader.h"
+	"call.h"
+
+1524473902 c:\users\stuppzzzz\desktop\game_engine\vertices.h
+	"vector3f.h"
+
+1524521445 c:\users\stuppzzzz\desktop\game_engine\obj_loader.h
+	"glm/glm.hpp"
+	<vector>
+	<string>
+
+1502887718 c:\users\stuppzzzz\desktop\game_engine\glm\glm.hpp
+	"detail/_fixes.hpp"
+	<cmath>
+	<climits>
+	<cfloat>
+	<limits>
+	<cassert>
+	"fwd.hpp"
+	"vec2.hpp"
+	"vec3.hpp"
+	"vec4.hpp"
+	"mat2x2.hpp"
+	"mat2x3.hpp"
+	"mat2x4.hpp"
+	"mat3x2.hpp"
+	"mat3x3.hpp"
+	"mat3x4.hpp"
+	"mat4x2.hpp"
+	"mat4x3.hpp"
+	"mat4x4.hpp"
+	"trigonometric.hpp"
+	"exponential.hpp"
+	"common.hpp"
+	"packing.hpp"
+	"geometric.hpp"
+	"matrix.hpp"
+	"vector_relational.hpp"
+	"integer.hpp"
+
+1483566163 c:\users\stuppzzzz\desktop\game_engine\glm\detail\_fixes.hpp
+	<cmath>
+
+1502887718 c:\users\stuppzzzz\desktop\game_engine\glm\fwd.hpp
+	"detail/type_int.hpp"
+	"detail/type_float.hpp"
+	"detail/type_vec.hpp"
+	"detail/type_mat.hpp"
+
+1502887718 c:\users\stuppzzzz\desktop\game_engine\glm\detail\type_int.hpp
+	"setup.hpp"
+	<type_traits>
+	<cstdint>
+
+1502887718 c:\users\stuppzzzz\desktop\game_engine\glm\detail\setup.hpp
+	<cassert>
+	<cstddef>
+	"../simd/platform.h"
+
+1502887718 c:\users\stuppzzzz\desktop\game_engine\glm\simd\platform.h
+	<cuda.h>
+	<intrin.h>
+	<immintrin.h>
+	<immintrin.h>
+	<popcntintrin.h>
+	<nmmintrin.h>
+	<smmintrin.h>
+	<tmmintrin.h>
+	<pmmintrin.h>
+	<emmintrin.h>
+
+1502887718 c:\users\stuppzzzz\desktop\game_engine\glm\detail\type_float.hpp
+	"setup.hpp"
+
+1502887718 c:\users\stuppzzzz\desktop\game_engine\glm\detail\type_vec.hpp
+	"precision.hpp"
+	"type_int.hpp"
+
+1502887718 c:\users\stuppzzzz\desktop\game_engine\glm\detail\precision.hpp
+	"setup.hpp"
+
+1502887718 c:\users\stuppzzzz\desktop\game_engine\glm\detail\type_mat.hpp
+	"precision.hpp"
+
+1502887718 c:\users\stuppzzzz\desktop\game_engine\glm\vec2.hpp
+	"detail/type_vec2.hpp"
+
+1502887718 c:\users\stuppzzzz\desktop\game_engine\glm\detail\type_vec2.hpp
+	"type_vec.hpp"
+	"_swizzle.hpp"
+	"_swizzle_func.hpp"
+	<cstddef>
+	"type_vec2.inl"
+
+1502887718 c:\users\stuppzzzz\desktop\game_engine\glm\detail\_swizzle.hpp
+
+1502887718 c:\users\stuppzzzz\desktop\game_engine\glm\detail\_swizzle_func.hpp
+
+1502887718 c:\users\stuppzzzz\desktop\game_engine\glm\detail\type_vec2.inl
+
+1502887718 c:\users\stuppzzzz\desktop\game_engine\glm\vec3.hpp
+	"detail/type_vec3.hpp"
+
+1502887718 c:\users\stuppzzzz\desktop\game_engine\glm\detail\type_vec3.hpp
+	"type_vec.hpp"
+	"_swizzle.hpp"
+	"_swizzle_func.hpp"
+	<cstddef>
+	"type_vec3.inl"
+
+1502887718 c:\users\stuppzzzz\desktop\game_engine\glm\detail\type_vec3.inl
+
+1502887718 c:\users\stuppzzzz\desktop\game_engine\glm\vec4.hpp
+	"detail/type_vec4.hpp"
+
+1502887718 c:\users\stuppzzzz\desktop\game_engine\glm\detail\type_vec4.hpp
+	"type_vec.hpp"
+	"_swizzle.hpp"
+	"_swizzle_func.hpp"
+	<cstddef>
+	"type_vec4.inl"
+
+1502887718 c:\users\stuppzzzz\desktop\game_engine\glm\detail\type_vec4.inl
+	"type_vec4_simd.inl"
+
+1502887718 c:\users\stuppzzzz\desktop\game_engine\glm\detail\type_vec4_simd.inl
+
+1502887718 c:\users\stuppzzzz\desktop\game_engine\glm\mat2x2.hpp
+	"detail/type_mat2x2.hpp"
+
+1502887718 c:\users\stuppzzzz\desktop\game_engine\glm\detail\type_mat2x2.hpp
+	"../fwd.hpp"
+	"type_vec2.hpp"
+	"type_mat.hpp"
+	<limits>
+	<cstddef>
+	"type_mat2x2.inl"
+
+1502887718 c:\users\stuppzzzz\desktop\game_engine\glm\detail\type_mat2x2.inl
+	"func_matrix.hpp"
+
+1502887718 c:\users\stuppzzzz\desktop\game_engine\glm\detail\func_matrix.hpp
+	"../detail/precision.hpp"
+	"../detail/setup.hpp"
+	"../detail/type_mat.hpp"
+	"../vec2.hpp"
+	"../vec3.hpp"
+	"../vec4.hpp"
+	"../mat2x2.hpp"
+	"../mat2x3.hpp"
+	"../mat2x4.hpp"
+	"../mat3x2.hpp"
+	"../mat3x3.hpp"
+	"../mat3x4.hpp"
+	"../mat4x2.hpp"
+	"../mat4x3.hpp"
+	"../mat4x4.hpp"
+	"func_matrix.inl"
+
+1502887718 c:\users\stuppzzzz\desktop\game_engine\glm\mat2x3.hpp
+	"detail/type_mat2x3.hpp"
+
+1502887718 c:\users\stuppzzzz\desktop\game_engine\glm\detail\type_mat2x3.hpp
+	"../fwd.hpp"
+	"type_vec2.hpp"
+	"type_vec3.hpp"
+	"type_mat.hpp"
+	<limits>
+	<cstddef>
+	"type_mat2x3.inl"
+
+1502887718 c:\users\stuppzzzz\desktop\game_engine\glm\detail\type_mat2x3.inl
+
+1502887718 c:\users\stuppzzzz\desktop\game_engine\glm\mat2x4.hpp
+	"detail/type_mat2x4.hpp"
+
+1502887718 c:\users\stuppzzzz\desktop\game_engine\glm\detail\type_mat2x4.hpp
+	"../fwd.hpp"
+	"type_vec2.hpp"
+	"type_vec4.hpp"
+	"type_mat.hpp"
+	<limits>
+	<cstddef>
+	"type_mat2x4.inl"
+
+1502887718 c:\users\stuppzzzz\desktop\game_engine\glm\detail\type_mat2x4.inl
+
+1502887718 c:\users\stuppzzzz\desktop\game_engine\glm\mat3x2.hpp
+	"detail/type_mat3x2.hpp"
+
+1502887718 c:\users\stuppzzzz\desktop\game_engine\glm\detail\type_mat3x2.hpp
+	"../fwd.hpp"
+	"type_vec2.hpp"
+	"type_vec3.hpp"
+	"type_mat.hpp"
+	<limits>
+	<cstddef>
+	"type_mat3x2.inl"
+
+1502887718 c:\users\stuppzzzz\desktop\game_engine\glm\detail\type_mat3x2.inl
+
+1502887718 c:\users\stuppzzzz\desktop\game_engine\glm\mat3x3.hpp
+	"detail/type_mat3x3.hpp"
+
+1502887718 c:\users\stuppzzzz\desktop\game_engine\glm\detail\type_mat3x3.hpp
+	"../fwd.hpp"
+	"type_vec3.hpp"
+	"type_mat.hpp"
+	<limits>
+	<cstddef>
+	"type_mat3x3.inl"
+
+1502887718 c:\users\stuppzzzz\desktop\game_engine\glm\detail\type_mat3x3.inl
+	"func_matrix.hpp"
+
+1502887718 c:\users\stuppzzzz\desktop\game_engine\glm\mat3x4.hpp
+	"detail/type_mat3x4.hpp"
+
+1502887718 c:\users\stuppzzzz\desktop\game_engine\glm\detail\type_mat3x4.hpp
+	"../fwd.hpp"
+	"type_vec3.hpp"
+	"type_vec4.hpp"
+	"type_mat.hpp"
+	<limits>
+	<cstddef>
+	"type_mat3x4.inl"
+
+1502887718 c:\users\stuppzzzz\desktop\game_engine\glm\detail\type_mat3x4.inl
+
+1502887718 c:\users\stuppzzzz\desktop\game_engine\glm\mat4x2.hpp
+	"detail/type_mat4x2.hpp"
+
+1502887718 c:\users\stuppzzzz\desktop\game_engine\glm\detail\type_mat4x2.hpp
+	"../fwd.hpp"
+	"type_vec2.hpp"
+	"type_vec4.hpp"
+	"type_mat.hpp"
+	<limits>
+	<cstddef>
+	"type_mat4x2.inl"
+
+1502887718 c:\users\stuppzzzz\desktop\game_engine\glm\detail\type_mat4x2.inl
+
+1502887718 c:\users\stuppzzzz\desktop\game_engine\glm\mat4x3.hpp
+	"detail/type_mat4x3.hpp"
+
+1502887718 c:\users\stuppzzzz\desktop\game_engine\glm\detail\type_mat4x3.hpp
+	"../fwd.hpp"
+	"type_vec3.hpp"
+	"type_vec4.hpp"
+	"type_mat.hpp"
+	<limits>
+	<cstddef>
+	"type_mat4x3.inl"
+
+1502887718 c:\users\stuppzzzz\desktop\game_engine\glm\detail\type_mat4x3.inl
+
+1502887718 c:\users\stuppzzzz\desktop\game_engine\glm\mat4x4.hpp
+	"detail/type_mat4x4.hpp"
+
+1502887718 c:\users\stuppzzzz\desktop\game_engine\glm\detail\type_mat4x4.hpp
+	"../fwd.hpp"
+	"type_vec4.hpp"
+	"type_mat.hpp"
+	<limits>
+	<cstddef>
+	"type_mat4x4.inl"
+
+1502887718 c:\users\stuppzzzz\desktop\game_engine\glm\detail\type_mat4x4.inl
+	"func_matrix.hpp"
+	"type_mat4x4_simd.inl"
+
+1483566163 c:\users\stuppzzzz\desktop\game_engine\glm\detail\type_mat4x4_simd.inl
+
+1502887718 c:\users\stuppzzzz\desktop\game_engine\glm\detail\func_matrix.inl
+	"../geometric.hpp"
+	<limits>
+	"func_matrix_simd.inl"
+
+1502887718 c:\users\stuppzzzz\desktop\game_engine\glm\geometric.hpp
+	"detail/func_geometric.hpp"
+
+1502887718 c:\users\stuppzzzz\desktop\game_engine\glm\detail\func_geometric.hpp
+	"type_vec3.hpp"
+	"func_geometric.inl"
+
+1502887718 c:\users\stuppzzzz\desktop\game_engine\glm\detail\func_geometric.inl
+	"func_exponential.hpp"
+	"func_common.hpp"
+	"type_vec2.hpp"
+	"type_vec4.hpp"
+	"type_float.hpp"
+	"func_geometric_simd.inl"
+
+1502887718 c:\users\stuppzzzz\desktop\game_engine\glm\detail\func_exponential.hpp
+	"type_vec1.hpp"
+	"type_vec2.hpp"
+	"type_vec3.hpp"
+	"type_vec4.hpp"
+	<cmath>
+	"func_exponential.inl"
+
+1502887718 c:\users\stuppzzzz\desktop\game_engine\glm\detail\type_vec1.hpp
+	"../fwd.hpp"
+	"type_vec.hpp"
+	"_swizzle.hpp"
+	"_swizzle_func.hpp"
+	<cstddef>
+	"type_vec1.inl"
+
+1502887718 c:\users\stuppzzzz\desktop\game_engine\glm\detail\type_vec1.inl
+
+1502887718 c:\users\stuppzzzz\desktop\game_engine\glm\detail\func_exponential.inl
+	"func_vector_relational.hpp"
+	"_vectorize.hpp"
+	<limits>
+	<cmath>
+	<cassert>
+	"func_exponential_simd.inl"
+
+1502887718 c:\users\stuppzzzz\desktop\game_engine\glm\detail\func_vector_relational.hpp
+	"precision.hpp"
+	"setup.hpp"
+	"func_vector_relational.inl"
+
+1502887718 c:\users\stuppzzzz\desktop\game_engine\glm\detail\func_vector_relational.inl
+	<limits>
+	"func_vector_relational_simd.inl"
+
+1483566163 c:\users\stuppzzzz\desktop\game_engine\glm\detail\func_vector_relational_simd.inl
+
+1502887718 c:\users\stuppzzzz\desktop\game_engine\glm\detail\_vectorize.hpp
+	"type_vec1.hpp"
+	"type_vec2.hpp"
+	"type_vec3.hpp"
+	"type_vec4.hpp"
+
+1502887718 c:\users\stuppzzzz\desktop\game_engine\glm\detail\func_exponential_simd.inl
+	"../simd/exponential.h"
+
+1483566164 c:\users\stuppzzzz\desktop\game_engine\glm\simd\exponential.h
+	"platform.h"
+
+1502887718 c:\users\stuppzzzz\desktop\game_engine\glm\detail\func_common.hpp
+	"setup.hpp"
+	"precision.hpp"
+	"type_int.hpp"
+	"_fixes.hpp"
+	"func_common.inl"
+
+1502887718 c:\users\stuppzzzz\desktop\game_engine\glm\detail\func_common.inl
+	"func_vector_relational.hpp"
+	"type_vec2.hpp"
+	"type_vec3.hpp"
+	"type_vec4.hpp"
+	"_vectorize.hpp"
+	<limits>
+	"func_common_simd.inl"
+
+1502887718 c:\users\stuppzzzz\desktop\game_engine\glm\detail\func_common_simd.inl
+	"../simd/common.h"
+	<immintrin.h>
+
+1502887718 c:\users\stuppzzzz\desktop\game_engine\glm\simd\common.h
+	"platform.h"
+
+1502887718 c:\users\stuppzzzz\desktop\game_engine\glm\detail\func_geometric_simd.inl
+	"../simd/geometric.h"
+
+1483566164 c:\users\stuppzzzz\desktop\game_engine\glm\simd\geometric.h
+	"common.h"
+
+1502887718 c:\users\stuppzzzz\desktop\game_engine\glm\detail\func_matrix_simd.inl
+	"type_mat4x4.hpp"
+	"func_geometric.hpp"
+	"../simd/matrix.h"
+
+1502887718 c:\users\stuppzzzz\desktop\game_engine\glm\simd\matrix.h
+	"geometric.h"
+
+1502887718 c:\users\stuppzzzz\desktop\game_engine\glm\trigonometric.hpp
+	"detail/func_trigonometric.hpp"
+
+1502887718 c:\users\stuppzzzz\desktop\game_engine\glm\detail\func_trigonometric.hpp
+	"setup.hpp"
+	"precision.hpp"
+	"func_trigonometric.inl"
+
+1502887718 c:\users\stuppzzzz\desktop\game_engine\glm\detail\func_trigonometric.inl
+	"_vectorize.hpp"
+	<cmath>
+	<limits>
+	"func_trigonometric_simd.inl"
+
+1483566163 c:\users\stuppzzzz\desktop\game_engine\glm\detail\func_trigonometric_simd.inl
+
+1502887718 c:\users\stuppzzzz\desktop\game_engine\glm\exponential.hpp
+	"detail/func_exponential.hpp"
+
+1502887718 c:\users\stuppzzzz\desktop\game_engine\glm\common.hpp
+	"detail/func_common.hpp"
+
+1502887718 c:\users\stuppzzzz\desktop\game_engine\glm\packing.hpp
+	"detail/func_packing.hpp"
+
+1502887718 c:\users\stuppzzzz\desktop\game_engine\glm\detail\func_packing.hpp
+	"type_vec2.hpp"
+	"type_vec4.hpp"
+	"func_packing.inl"
+
+1502887718 c:\users\stuppzzzz\desktop\game_engine\glm\detail\func_packing.inl
+	"func_common.hpp"
+	"type_half.hpp"
+	"../fwd.hpp"
+	"func_packing_simd.inl"
+
+1502887718 c:\users\stuppzzzz\desktop\game_engine\glm\detail\type_half.hpp
+	"setup.hpp"
+	"type_half.inl"
+
+1502887718 c:\users\stuppzzzz\desktop\game_engine\glm\detail\type_half.inl
+
+1483566163 c:\users\stuppzzzz\desktop\game_engine\glm\detail\func_packing_simd.inl
+
+1502887718 c:\users\stuppzzzz\desktop\game_engine\glm\matrix.hpp
+	"detail/func_matrix.hpp"
+
+1502887718 c:\users\stuppzzzz\desktop\game_engine\glm\vector_relational.hpp
+	"detail/func_vector_relational.hpp"
+
+1502887718 c:\users\stuppzzzz\desktop\game_engine\glm\integer.hpp
+	"detail/func_integer.hpp"
+
+1502887718 c:\users\stuppzzzz\desktop\game_engine\glm\detail\func_integer.hpp
+	"setup.hpp"
+	"precision.hpp"
+	"func_common.hpp"
+	"func_vector_relational.hpp"
+	"func_integer.inl"
+
+1502887718 c:\users\stuppzzzz\desktop\game_engine\glm\detail\func_integer.inl
+	"type_vec2.hpp"
+	"type_vec3.hpp"
+	"type_vec4.hpp"
+	"type_int.hpp"
+	"_vectorize.hpp"
+	<intrin.h>
+	<limits>
+	"func_integer_simd.inl"
+
+1502887718 c:\users\stuppzzzz\desktop\game_engine\glm\detail\func_integer_simd.inl
+	"../simd/integer.h"
+
+1483566164 c:\users\stuppzzzz\desktop\game_engine\glm\simd\integer.h
+
+1527193421 c:\users\stuppzzzz\desktop\game_engine\shader.h
+	<unordered_map>
+	"glm/glm.hpp"
+	"transform.h"
+	"camera.h"
+	"point_lights.h"
+
+1527646371 c:\users\stuppzzzz\desktop\game_engine\transform.h
+	"glm/glm.hpp"
+	"glm/gtc/matrix_transform.hpp"
+	"glm/gtx/transform.hpp"
+	"vector3f.h"
+	"matrices.h"
+	"camera.h"
+
+1502887718 c:\users\stuppzzzz\desktop\game_engine\glm\gtc\matrix_transform.hpp
+	"../mat4x4.hpp"
+	"../vec2.hpp"
+	"../vec3.hpp"
+	"../vec4.hpp"
+	"../gtc/constants.hpp"
+	"matrix_transform.inl"
+
+1502887718 c:\users\stuppzzzz\desktop\game_engine\glm\gtc\constants.hpp
+	"../detail/setup.hpp"
+	"constants.inl"
+
+1502887718 c:\users\stuppzzzz\desktop\game_engine\glm\gtc\constants.inl
+	<limits>
+
+1502887718 c:\users\stuppzzzz\desktop\game_engine\glm\gtc\matrix_transform.inl
+	"../geometric.hpp"
+	"../trigonometric.hpp"
+	"../matrix.hpp"
+
+1502887718 c:\users\stuppzzzz\desktop\game_engine\glm\gtx\transform.hpp
+	"../glm.hpp"
+	"../gtc/matrix_transform.hpp"
+	"transform.inl"
+
+1502887718 c:\users\stuppzzzz\desktop\game_engine\glm\gtx\transform.inl
+
+1527358273 c:\users\stuppzzzz\desktop\game_engine\camera.h
+	"glm/glm.hpp"
+	"glm/gtc/matrix_transform.hpp"
+	"vector3f.h"
+
+1527691856 c:\users\stuppzzzz\desktop\game_engine\shaders.h
+
+1418909075 source:c:\users\stuppzzzz\desktop\game_engine\obj_loader.cpp
+	"obj_loader.h"
+	<fstream>
+	<iostream>
+	<algorithm>
+	<map>
+
+1524673751 c:\users\stuppzzzz\desktop\game_engine\vertex_array.h
+	"vertex_buffer.h"
+
+1525979108 c:\users\stuppzzzz\desktop\game_engine\vertex_buffer.h
+	"obj_loader.h"
+	<GL/glew.h>
+
+1525898474 c:\users\stuppzzzz\desktop\game_engine\vertex_buffer_layout.h
+	<vector>
+	<gl/glew.h>
+	"call.h"
+
+1525890150 source:c:\users\stuppzzzz\desktop\game_engine\call.cpp
+
+1525890162 c:\users\stuppzzzz\desktop\game_engine\call.h
+
+1525237528 c:\users\stuppzzzz\desktop\game_engine\index_buffer.h
+	<vector>
+	"obj_loader.h"
+
+1525899802 source:c:\users\stuppzzzz\desktop\game_engine\index_buffer.cpp
+	"index_buffer.h"
+	<stdio.h>
+	"GL/glew.h"
+
+1527232612 source:c:\users\stuppzzzz\desktop\game_engine\shader.cpp
+	"shader.h"
+	<stdio.h>
+	"GL/glew.h"
+
+1523750615 source:c:\users\stuppzzzz\desktop\game_engine\stbb_image.cpp
+	"stb_image.h"
+
+1523750593 c:\users\stuppzzzz\desktop\game_engine\stb_image.h
+	"stb_image.h"
+	<stdio.h>
+	<stdarg.h>
+	<stddef.h>
+	<stdlib.h>
+	<string.h>
+	<limits.h>
+	<math.h>
+	<stdio.h>
+	<assert.h>
+	<stdint.h>
+	<emmintrin.h>
+	<intrin.h>
+	<arm_neon.h>
+
+1526855641 source:c:\users\stuppzzzz\desktop\game_engine\texture.cpp
+	"texture.h"
+	"stb_image.h"
+	"GL/glew.h"
+
+1526741033 c:\users\stuppzzzz\desktop\game_engine\texture.h
+
+1524705704 source:c:\users\stuppzzzz\desktop\game_engine\transform.cpp
+	"transform.h"
+
+1525889922 source:c:\users\stuppzzzz\desktop\game_engine\vertex_array.cpp
+	"vertex_array.h"
+	"call.h"
+	"vertex_buffer_layout.h"
+
+1525983899 source:c:\users\stuppzzzz\desktop\game_engine\vertex_buffer.cpp
+	"vertex_buffer.h"
+	"call.h"
+
+1524788854 source:c:\users\stuppzzzz\desktop\game_engine\input.cpp
+	"input.h"
+
+1527691820 source:c:\users\stuppzzzz\desktop\game_engine\game.cpp
+	"game.h"
+	"material.h"
+	"shaders.h"
+	"terrain.h"
+
+1525885898 c:\users\stuppzzzz\desktop\game_engine\resource_loader.h
+	"glm/glm.hpp"
+	<vector>
+	<string.h>
+	"shader.h"
+
+1525904390 source:c:\users\stuppzzzz\desktop\game_engine\resource_loader.cpp
+	<stdio.h>
+	<string.h>
+	"call.h"
+	"resource_loader.h"
+	"GL/glew.h"
+	<unistd.h>
+
+1527519159 c:\users\stuppzzzz\desktop\game_engine\material.h
+	"texture.h"
+	"glm/glm.hpp"
+	"glm/gtc/matrix_transform.hpp"
+
+1527655345 source:c:\users\stuppzzzz\desktop\game_engine\material.cpp
+	"material.h"
+
+1527626602 c:\users\stuppzzzz\desktop\game_engine\point_lights.h
+	"vertex_buffer.h"
+	"vector3f.h"
+
+1527117855 c:\users\stuppzzzz\desktop\game_engine\terrain.h
+	"shader.h"
+
+1525890150 source:c:\users\stuppzzzz\desktop\wolf3d clone\call.cpp
+
+1530942167 source:c:\users\stuppzzzz\desktop\wolf3d clone\game.cpp
+	"game.h"
+	"material.h"
+	"shaders.h"
+	"terrain.h"
+	"stdio.h"
+	"thread"
+	"bitmap.h"
+	"level.h"
+	"player.h"
+	"enemies.h"
+	<vector>
+
+1529549006 c:\users\stuppzzzz\desktop\wolf3d clone\game.h
+	"input.h"
+	"display.h"
+	"vector2f.h"
+	"vector3f.h"
+	"matrices.h"
+	"mesh.h"
+	"shader.h"
+	"resource_loader.h"
+	"obj_loader.h"
+	"vertex_array.h"
+	"vertex_buffer.h"
+	"vertex_buffer_layout.h"
+	"index_buffer.h"
+	"camera.h"
+	"texture.h"
+	"material.h"
+
+1529353860 c:\users\stuppzzzz\desktop\wolf3d clone\input.h
+	<vector>
+	"display.h"
+
+1529784278 c:\users\stuppzzzz\desktop\wolf3d clone\display.h
+	"GL/glew.h"
+	"GLFW/glfw3.h"
+	"vertex_array.h"
+	<stdio.h>
+	<string.h>
+
+1501501581 c:\users\stuppzzzz\desktop\wolf3d clone\glew\include\gl\glew.h
+	<stddef.h>
+	<inttypes.h>
+	<stdint.h>
+	<inttypes.h>
+	<Availability.h>
+	<OpenGL/glu.h>
+	<GL/glu.h>
+
+1523853948 c:\users\stuppzzzz\desktop\wolf3d clone\glfw\include\glfw\glfw3.h
+	<stddef.h>
+	<stdint.h>
+	<GLES/gl.h>
+	<GLES/glext.h>
+	<GLES2/gl2.h>
+	<GLES2/gl2ext.h>
+	<GLES3/gl3.h>
+	<GLES2/gl2ext.h>
+	<GLES3/gl31.h>
+	<GLES2/gl2ext.h>
+	<GLES3/gl32.h>
+	<GLES2/gl2ext.h>
+	<OpenGL/gl3.h>
+	<OpenGL/gl3ext.h>
+	<GL/glcorearb.h>
+	<OpenGL/gl.h>
+	<OpenGL/glu.h>
+	<GL/gl.h>
+	<GL/glext.h>
+	<GL/glu.h>
+	<vulkan/vulkan.h>
+
+1524673751 c:\users\stuppzzzz\desktop\wolf3d clone\vertex_array.h
+	"vertex_buffer.h"
+
+1525979108 c:\users\stuppzzzz\desktop\wolf3d clone\vertex_buffer.h
+	"obj_loader.h"
+	<GL/glew.h>
+
+1529908320 c:\users\stuppzzzz\desktop\wolf3d clone\obj_loader.h
+	"glm/glm.hpp"
+	<vector>
+	<string>
+	"vector3f.h"
+	"vector2f.h"
+
+1502887718 c:\users\stuppzzzz\desktop\wolf3d clone\glm\glm.hpp
+	"detail/_fixes.hpp"
+	<cmath>
+	<climits>
+	<cfloat>
+	<limits>
+	<cassert>
+	"fwd.hpp"
+	"vec2.hpp"
+	"vec3.hpp"
+	"vec4.hpp"
+	"mat2x2.hpp"
+	"mat2x3.hpp"
+	"mat2x4.hpp"
+	"mat3x2.hpp"
+	"mat3x3.hpp"
+	"mat3x4.hpp"
+	"mat4x2.hpp"
+	"mat4x3.hpp"
+	"mat4x4.hpp"
+	"trigonometric.hpp"
+	"exponential.hpp"
+	"common.hpp"
+	"packing.hpp"
+	"geometric.hpp"
+	"matrix.hpp"
+	"vector_relational.hpp"
+	"integer.hpp"
+
+1483566163 c:\users\stuppzzzz\desktop\wolf3d clone\glm\detail\_fixes.hpp
+	<cmath>
+
+1502887718 c:\users\stuppzzzz\desktop\wolf3d clone\glm\fwd.hpp
+	"detail/type_int.hpp"
+	"detail/type_float.hpp"
+	"detail/type_vec.hpp"
+	"detail/type_mat.hpp"
+
+1502887718 c:\users\stuppzzzz\desktop\wolf3d clone\glm\detail\type_int.hpp
+	"setup.hpp"
+	<type_traits>
+	<cstdint>
+
+1502887718 c:\users\stuppzzzz\desktop\wolf3d clone\glm\detail\setup.hpp
+	<cassert>
+	<cstddef>
+	"../simd/platform.h"
+
+1502887718 c:\users\stuppzzzz\desktop\wolf3d clone\glm\simd\platform.h
+	<cuda.h>
+	<intrin.h>
+	<immintrin.h>
+	<immintrin.h>
+	<popcntintrin.h>
+	<nmmintrin.h>
+	<smmintrin.h>
+	<tmmintrin.h>
+	<pmmintrin.h>
+	<emmintrin.h>
+
+1502887718 c:\users\stuppzzzz\desktop\wolf3d clone\glm\detail\type_float.hpp
+	"setup.hpp"
+
+1502887718 c:\users\stuppzzzz\desktop\wolf3d clone\glm\detail\type_vec.hpp
+	"precision.hpp"
+	"type_int.hpp"
+
+1502887718 c:\users\stuppzzzz\desktop\wolf3d clone\glm\detail\precision.hpp
+	"setup.hpp"
+
+1502887718 c:\users\stuppzzzz\desktop\wolf3d clone\glm\detail\type_mat.hpp
+	"precision.hpp"
+
+1502887718 c:\users\stuppzzzz\desktop\wolf3d clone\glm\vec2.hpp
+	"detail/type_vec2.hpp"
+
+1502887718 c:\users\stuppzzzz\desktop\wolf3d clone\glm\detail\type_vec2.hpp
+	"type_vec.hpp"
+	"_swizzle.hpp"
+	"_swizzle_func.hpp"
+	<cstddef>
+	"type_vec2.inl"
+
+1502887718 c:\users\stuppzzzz\desktop\wolf3d clone\glm\detail\_swizzle.hpp
+
+1502887718 c:\users\stuppzzzz\desktop\wolf3d clone\glm\detail\_swizzle_func.hpp
+
+1502887718 c:\users\stuppzzzz\desktop\wolf3d clone\glm\detail\type_vec2.inl
+
+1502887718 c:\users\stuppzzzz\desktop\wolf3d clone\glm\vec3.hpp
+	"detail/type_vec3.hpp"
+
+1502887718 c:\users\stuppzzzz\desktop\wolf3d clone\glm\detail\type_vec3.hpp
+	"type_vec.hpp"
+	"_swizzle.hpp"
+	"_swizzle_func.hpp"
+	<cstddef>
+	"type_vec3.inl"
+
+1502887718 c:\users\stuppzzzz\desktop\wolf3d clone\glm\detail\type_vec3.inl
+
+1502887718 c:\users\stuppzzzz\desktop\wolf3d clone\glm\vec4.hpp
+	"detail/type_vec4.hpp"
+
+1502887718 c:\users\stuppzzzz\desktop\wolf3d clone\glm\detail\type_vec4.hpp
+	"type_vec.hpp"
+	"_swizzle.hpp"
+	"_swizzle_func.hpp"
+	<cstddef>
+	"type_vec4.inl"
+
+1502887718 c:\users\stuppzzzz\desktop\wolf3d clone\glm\detail\type_vec4.inl
+	"type_vec4_simd.inl"
+
+1502887718 c:\users\stuppzzzz\desktop\wolf3d clone\glm\detail\type_vec4_simd.inl
+
+1502887718 c:\users\stuppzzzz\desktop\wolf3d clone\glm\mat2x2.hpp
+	"detail/type_mat2x2.hpp"
+
+1502887718 c:\users\stuppzzzz\desktop\wolf3d clone\glm\detail\type_mat2x2.hpp
+	"../fwd.hpp"
+	"type_vec2.hpp"
+	"type_mat.hpp"
+	<limits>
+	<cstddef>
+	"type_mat2x2.inl"
+
+1502887718 c:\users\stuppzzzz\desktop\wolf3d clone\glm\detail\type_mat2x2.inl
+	"func_matrix.hpp"
+
+1502887718 c:\users\stuppzzzz\desktop\wolf3d clone\glm\detail\func_matrix.hpp
+	"../detail/precision.hpp"
+	"../detail/setup.hpp"
+	"../detail/type_mat.hpp"
+	"../vec2.hpp"
+	"../vec3.hpp"
+	"../vec4.hpp"
+	"../mat2x2.hpp"
+	"../mat2x3.hpp"
+	"../mat2x4.hpp"
+	"../mat3x2.hpp"
+	"../mat3x3.hpp"
+	"../mat3x4.hpp"
+	"../mat4x2.hpp"
+	"../mat4x3.hpp"
+	"../mat4x4.hpp"
+	"func_matrix.inl"
+
+1502887718 c:\users\stuppzzzz\desktop\wolf3d clone\glm\mat2x3.hpp
+	"detail/type_mat2x3.hpp"
+
+1502887718 c:\users\stuppzzzz\desktop\wolf3d clone\glm\detail\type_mat2x3.hpp
+	"../fwd.hpp"
+	"type_vec2.hpp"
+	"type_vec3.hpp"
+	"type_mat.hpp"
+	<limits>
+	<cstddef>
+	"type_mat2x3.inl"
+
+1502887718 c:\users\stuppzzzz\desktop\wolf3d clone\glm\detail\type_mat2x3.inl
+
+1502887718 c:\users\stuppzzzz\desktop\wolf3d clone\glm\mat2x4.hpp
+	"detail/type_mat2x4.hpp"
+
+1502887718 c:\users\stuppzzzz\desktop\wolf3d clone\glm\detail\type_mat2x4.hpp
+	"../fwd.hpp"
+	"type_vec2.hpp"
+	"type_vec4.hpp"
+	"type_mat.hpp"
+	<limits>
+	<cstddef>
+	"type_mat2x4.inl"
+
+1502887718 c:\users\stuppzzzz\desktop\wolf3d clone\glm\detail\type_mat2x4.inl
+
+1502887718 c:\users\stuppzzzz\desktop\wolf3d clone\glm\mat3x2.hpp
+	"detail/type_mat3x2.hpp"
+
+1502887718 c:\users\stuppzzzz\desktop\wolf3d clone\glm\detail\type_mat3x2.hpp
+	"../fwd.hpp"
+	"type_vec2.hpp"
+	"type_vec3.hpp"
+	"type_mat.hpp"
+	<limits>
+	<cstddef>
+	"type_mat3x2.inl"
+
+1502887718 c:\users\stuppzzzz\desktop\wolf3d clone\glm\detail\type_mat3x2.inl
+
+1502887718 c:\users\stuppzzzz\desktop\wolf3d clone\glm\mat3x3.hpp
+	"detail/type_mat3x3.hpp"
+
+1502887718 c:\users\stuppzzzz\desktop\wolf3d clone\glm\detail\type_mat3x3.hpp
+	"../fwd.hpp"
+	"type_vec3.hpp"
+	"type_mat.hpp"
+	<limits>
+	<cstddef>
+	"type_mat3x3.inl"
+
+1502887718 c:\users\stuppzzzz\desktop\wolf3d clone\glm\detail\type_mat3x3.inl
+	"func_matrix.hpp"
+
+1502887718 c:\users\stuppzzzz\desktop\wolf3d clone\glm\mat3x4.hpp
+	"detail/type_mat3x4.hpp"
+
+1502887718 c:\users\stuppzzzz\desktop\wolf3d clone\glm\detail\type_mat3x4.hpp
+	"../fwd.hpp"
+	"type_vec3.hpp"
+	"type_vec4.hpp"
+	"type_mat.hpp"
+	<limits>
+	<cstddef>
+	"type_mat3x4.inl"
+
+1502887718 c:\users\stuppzzzz\desktop\wolf3d clone\glm\detail\type_mat3x4.inl
+
+1502887718 c:\users\stuppzzzz\desktop\wolf3d clone\glm\mat4x2.hpp
+	"detail/type_mat4x2.hpp"
+
+1502887718 c:\users\stuppzzzz\desktop\wolf3d clone\glm\detail\type_mat4x2.hpp
+	"../fwd.hpp"
+	"type_vec2.hpp"
+	"type_vec4.hpp"
+	"type_mat.hpp"
+	<limits>
+	<cstddef>
+	"type_mat4x2.inl"
+
+1502887718 c:\users\stuppzzzz\desktop\wolf3d clone\glm\detail\type_mat4x2.inl
+
+1502887718 c:\users\stuppzzzz\desktop\wolf3d clone\glm\mat4x3.hpp
+	"detail/type_mat4x3.hpp"
+
+1502887718 c:\users\stuppzzzz\desktop\wolf3d clone\glm\detail\type_mat4x3.hpp
+	"../fwd.hpp"
+	"type_vec3.hpp"
+	"type_vec4.hpp"
+	"type_mat.hpp"
+	<limits>
+	<cstddef>
+	"type_mat4x3.inl"
+
+1502887718 c:\users\stuppzzzz\desktop\wolf3d clone\glm\detail\type_mat4x3.inl
+
+1502887718 c:\users\stuppzzzz\desktop\wolf3d clone\glm\mat4x4.hpp
+	"detail/type_mat4x4.hpp"
+
+1502887718 c:\users\stuppzzzz\desktop\wolf3d clone\glm\detail\type_mat4x4.hpp
+	"../fwd.hpp"
+	"type_vec4.hpp"
+	"type_mat.hpp"
+	<limits>
+	<cstddef>
+	"type_mat4x4.inl"
+
+1502887718 c:\users\stuppzzzz\desktop\wolf3d clone\glm\detail\type_mat4x4.inl
+	"func_matrix.hpp"
+	"type_mat4x4_simd.inl"
+
+1483566163 c:\users\stuppzzzz\desktop\wolf3d clone\glm\detail\type_mat4x4_simd.inl
+
+1502887718 c:\users\stuppzzzz\desktop\wolf3d clone\glm\detail\func_matrix.inl
+	"../geometric.hpp"
+	<limits>
+	"func_matrix_simd.inl"
+
+1502887718 c:\users\stuppzzzz\desktop\wolf3d clone\glm\geometric.hpp
+	"detail/func_geometric.hpp"
+
+1502887718 c:\users\stuppzzzz\desktop\wolf3d clone\glm\detail\func_geometric.hpp
+	"type_vec3.hpp"
+	"func_geometric.inl"
+
+1502887718 c:\users\stuppzzzz\desktop\wolf3d clone\glm\detail\func_geometric.inl
+	"func_exponential.hpp"
+	"func_common.hpp"
+	"type_vec2.hpp"
+	"type_vec4.hpp"
+	"type_float.hpp"
+	"func_geometric_simd.inl"
+
+1502887718 c:\users\stuppzzzz\desktop\wolf3d clone\glm\detail\func_exponential.hpp
+	"type_vec1.hpp"
+	"type_vec2.hpp"
+	"type_vec3.hpp"
+	"type_vec4.hpp"
+	<cmath>
+	"func_exponential.inl"
+
+1502887718 c:\users\stuppzzzz\desktop\wolf3d clone\glm\detail\type_vec1.hpp
+	"../fwd.hpp"
+	"type_vec.hpp"
+	"_swizzle.hpp"
+	"_swizzle_func.hpp"
+	<cstddef>
+	"type_vec1.inl"
+
+1502887718 c:\users\stuppzzzz\desktop\wolf3d clone\glm\detail\type_vec1.inl
+
+1502887718 c:\users\stuppzzzz\desktop\wolf3d clone\glm\detail\func_exponential.inl
+	"func_vector_relational.hpp"
+	"_vectorize.hpp"
+	<limits>
+	<cmath>
+	<cassert>
+	"func_exponential_simd.inl"
+
+1502887718 c:\users\stuppzzzz\desktop\wolf3d clone\glm\detail\func_vector_relational.hpp
+	"precision.hpp"
+	"setup.hpp"
+	"func_vector_relational.inl"
+
+1502887718 c:\users\stuppzzzz\desktop\wolf3d clone\glm\detail\func_vector_relational.inl
+	<limits>
+	"func_vector_relational_simd.inl"
+
+1483566163 c:\users\stuppzzzz\desktop\wolf3d clone\glm\detail\func_vector_relational_simd.inl
+
+1502887718 c:\users\stuppzzzz\desktop\wolf3d clone\glm\detail\_vectorize.hpp
+	"type_vec1.hpp"
+	"type_vec2.hpp"
+	"type_vec3.hpp"
+	"type_vec4.hpp"
+
+1502887718 c:\users\stuppzzzz\desktop\wolf3d clone\glm\detail\func_exponential_simd.inl
+	"../simd/exponential.h"
+
+1483566164 c:\users\stuppzzzz\desktop\wolf3d clone\glm\simd\exponential.h
+	"platform.h"
+
+1502887718 c:\users\stuppzzzz\desktop\wolf3d clone\glm\detail\func_common.hpp
+	"setup.hpp"
+	"precision.hpp"
+	"type_int.hpp"
+	"_fixes.hpp"
+	"func_common.inl"
+
+1502887718 c:\users\stuppzzzz\desktop\wolf3d clone\glm\detail\func_common.inl
+	"func_vector_relational.hpp"
+	"type_vec2.hpp"
+	"type_vec3.hpp"
+	"type_vec4.hpp"
+	"_vectorize.hpp"
+	<limits>
+	"func_common_simd.inl"
+
+1502887718 c:\users\stuppzzzz\desktop\wolf3d clone\glm\detail\func_common_simd.inl
+	"../simd/common.h"
+	<immintrin.h>
+
+1502887718 c:\users\stuppzzzz\desktop\wolf3d clone\glm\simd\common.h
+	"platform.h"
+
+1502887718 c:\users\stuppzzzz\desktop\wolf3d clone\glm\detail\func_geometric_simd.inl
+	"../simd/geometric.h"
+
+1483566164 c:\users\stuppzzzz\desktop\wolf3d clone\glm\simd\geometric.h
+	"common.h"
+
+1502887718 c:\users\stuppzzzz\desktop\wolf3d clone\glm\detail\func_matrix_simd.inl
+	"type_mat4x4.hpp"
+	"func_geometric.hpp"
+	"../simd/matrix.h"
+
+1502887718 c:\users\stuppzzzz\desktop\wolf3d clone\glm\simd\matrix.h
+	"geometric.h"
+
+1502887718 c:\users\stuppzzzz\desktop\wolf3d clone\glm\trigonometric.hpp
+	"detail/func_trigonometric.hpp"
+
+1502887718 c:\users\stuppzzzz\desktop\wolf3d clone\glm\detail\func_trigonometric.hpp
+	"setup.hpp"
+	"precision.hpp"
+	"func_trigonometric.inl"
+
+1502887718 c:\users\stuppzzzz\desktop\wolf3d clone\glm\detail\func_trigonometric.inl
+	"_vectorize.hpp"
+	<cmath>
+	<limits>
+	"func_trigonometric_simd.inl"
+
+1483566163 c:\users\stuppzzzz\desktop\wolf3d clone\glm\detail\func_trigonometric_simd.inl
+
+1502887718 c:\users\stuppzzzz\desktop\wolf3d clone\glm\exponential.hpp
+	"detail/func_exponential.hpp"
+
+1502887718 c:\users\stuppzzzz\desktop\wolf3d clone\glm\common.hpp
+	"detail/func_common.hpp"
+
+1502887718 c:\users\stuppzzzz\desktop\wolf3d clone\glm\packing.hpp
+	"detail/func_packing.hpp"
+
+1502887718 c:\users\stuppzzzz\desktop\wolf3d clone\glm\detail\func_packing.hpp
+	"type_vec2.hpp"
+	"type_vec4.hpp"
+	"func_packing.inl"
+
+1502887718 c:\users\stuppzzzz\desktop\wolf3d clone\glm\detail\func_packing.inl
+	"func_common.hpp"
+	"type_half.hpp"
+	"../fwd.hpp"
+	"func_packing_simd.inl"
+
+1502887718 c:\users\stuppzzzz\desktop\wolf3d clone\glm\detail\type_half.hpp
+	"setup.hpp"
+	"type_half.inl"
+
+1502887718 c:\users\stuppzzzz\desktop\wolf3d clone\glm\detail\type_half.inl
+
+1483566163 c:\users\stuppzzzz\desktop\wolf3d clone\glm\detail\func_packing_simd.inl
+
+1502887718 c:\users\stuppzzzz\desktop\wolf3d clone\glm\matrix.hpp
+	"detail/func_matrix.hpp"
+
+1502887718 c:\users\stuppzzzz\desktop\wolf3d clone\glm\vector_relational.hpp
+	"detail/func_vector_relational.hpp"
+
+1502887718 c:\users\stuppzzzz\desktop\wolf3d clone\glm\integer.hpp
+	"detail/func_integer.hpp"
+
+1502887718 c:\users\stuppzzzz\desktop\wolf3d clone\glm\detail\func_integer.hpp
+	"setup.hpp"
+	"precision.hpp"
+	"func_common.hpp"
+	"func_vector_relational.hpp"
+	"func_integer.inl"
+
+1502887718 c:\users\stuppzzzz\desktop\wolf3d clone\glm\detail\func_integer.inl
+	"type_vec2.hpp"
+	"type_vec3.hpp"
+	"type_vec4.hpp"
+	"type_int.hpp"
+	"_vectorize.hpp"
+	<intrin.h>
+	<limits>
+	"func_integer_simd.inl"
+
+1502887718 c:\users\stuppzzzz\desktop\wolf3d clone\glm\detail\func_integer_simd.inl
+	"../simd/integer.h"
+
+1483566164 c:\users\stuppzzzz\desktop\wolf3d clone\glm\simd\integer.h
+
+1530920951 c:\users\stuppzzzz\desktop\wolf3d clone\vector2f.h
+	<stdio.h>
+	<math.h>
+
+1530802967 c:\users\stuppzzzz\desktop\wolf3d clone\vector3f.h
+	"vector2f.h"
+	"quaternions.h"
+
+1527342190 c:\users\stuppzzzz\desktop\wolf3d clone\quaternions.h
+	"math.h"
+
+1530855648 c:\users\stuppzzzz\desktop\wolf3d clone\matrices.h
+	"stdio.h"
+
+1529478215 c:\users\stuppzzzz\desktop\wolf3d clone\mesh.h
+	"GL/glew.h"
+	"obj_loader.h"
+	"shader.h"
+	"call.h"
+
+1529478215 c:\users\stuppzzzz\desktop\wolf3d clone\shader.h
+	<unordered_map>
+	"glm/glm.hpp"
+	"transform.h"
+	"camera.h"
+	"point_lights.h"
+	"material.h"
+
+1529550990 c:\users\stuppzzzz\desktop\wolf3d clone\transform.h
+	"glm/glm.hpp"
+	"glm/gtc/matrix_transform.hpp"
+	"glm/gtx/transform.hpp"
+	"vector3f.h"
+	"matrices.h"
+	"camera.h"
+
+1502887718 c:\users\stuppzzzz\desktop\wolf3d clone\glm\gtc\matrix_transform.hpp
+	"../mat4x4.hpp"
+	"../vec2.hpp"
+	"../vec3.hpp"
+	"../vec4.hpp"
+	"../gtc/constants.hpp"
+	"matrix_transform.inl"
+
+1502887718 c:\users\stuppzzzz\desktop\wolf3d clone\glm\gtc\constants.hpp
+	"../detail/setup.hpp"
+	"constants.inl"
+
+1502887718 c:\users\stuppzzzz\desktop\wolf3d clone\glm\gtc\constants.inl
+	<limits>
+
+1502887718 c:\users\stuppzzzz\desktop\wolf3d clone\glm\gtc\matrix_transform.inl
+	"../geometric.hpp"
+	"../trigonometric.hpp"
+	"../matrix.hpp"
+
+1502887718 c:\users\stuppzzzz\desktop\wolf3d clone\glm\gtx\transform.hpp
+	"../glm.hpp"
+	"../gtc/matrix_transform.hpp"
+	"transform.inl"
+
+1502887718 c:\users\stuppzzzz\desktop\wolf3d clone\glm\gtx\transform.inl
+
+1530045814 c:\users\stuppzzzz\desktop\wolf3d clone\camera.h
+	"glm/glm.hpp"
+	"glm/gtc/matrix_transform.hpp"
+	"vector3f.h"
+
+1527626602 c:\users\stuppzzzz\desktop\wolf3d clone\point_lights.h
+	"vertex_buffer.h"
+	"vector3f.h"
+
+1525890162 c:\users\stuppzzzz\desktop\wolf3d clone\call.h
+
+1525885898 c:\users\stuppzzzz\desktop\wolf3d clone\resource_loader.h
+	"glm/glm.hpp"
+	<vector>
+	<string.h>
+	"shader.h"
+
+1525898474 c:\users\stuppzzzz\desktop\wolf3d clone\vertex_buffer_layout.h
+	<vector>
+	<gl/glew.h>
+	"call.h"
+
+1528573945 c:\users\stuppzzzz\desktop\wolf3d clone\index_buffer.h
+	<vector>
+	"obj_loader.h"
+
+1529478555 c:\users\stuppzzzz\desktop\wolf3d clone\texture.h
+
+1530922467 c:\users\stuppzzzz\desktop\wolf3d clone\material.h
+	"texture.h"
+	"glm/glm.hpp"
+	"glm/gtc/matrix_transform.hpp"
+
+1530806223 c:\users\stuppzzzz\desktop\wolf3d clone\shaders.h
+
+1527117855 c:\users\stuppzzzz\desktop\wolf3d clone\terrain.h
+	"shader.h"
+
+1525899802 source:c:\users\stuppzzzz\desktop\wolf3d clone\index_buffer.cpp
+	"index_buffer.h"
+	<stdio.h>
+	"GL/glew.h"
+
+1529353802 source:c:\users\stuppzzzz\desktop\wolf3d clone\input.cpp
+	"input.h"
+
+1529802142 source:c:\users\stuppzzzz\desktop\wolf3d clone\main.cpp
+	"display.h"
+	"engine.h"
+	"mesh.h"
+	"obj_loader.h"
+
+1530855854 c:\users\stuppzzzz\desktop\wolf3d clone\engine.h
+	<thread>
+	<stdio.h>
+	"game.h"
+	"input.h"
+	"render_util.h"
+	"transform.h"
+	"camera.h"
+	<unistd.h>
+	"GLFW/glfw3.h"
+	"texture.h"
+	"material.h"
+	"point_lights.h"
+	"enemies.h"
+	"TIMER.H"
+	<iostream>
+
+1529484622 c:\users\stuppzzzz\desktop\wolf3d clone\render_util.h
+	<GL/glew.h>
+
+1529478555 source:c:\users\stuppzzzz\desktop\wolf3d clone\material.cpp
+	"material.h"
+
+1418909075 source:c:\users\stuppzzzz\desktop\wolf3d clone\obj_loader.cpp
+	"obj_loader.h"
+	<fstream>
+	<iostream>
+	<algorithm>
+	<map>
+
+1529436643 source:c:\users\stuppzzzz\desktop\wolf3d clone\resource_loader.cpp
+	<stdio.h>
+	<string.h>
+	"call.h"
+	"resource_loader.h"
+	"GL/glew.h"
+	<unistd.h>
+
+1529478215 source:c:\users\stuppzzzz\desktop\wolf3d clone\shader.cpp
+	"shader.h"
+	<stdio.h>
+	"GL/glew.h"
+
+1523750615 source:c:\users\stuppzzzz\desktop\wolf3d clone\stbb_image.cpp
+	"stb_image.h"
+
+1523750593 c:\users\stuppzzzz\desktop\wolf3d clone\stb_image.h
+	"stb_image.h"
+	<stdio.h>
+	<stdarg.h>
+	<stddef.h>
+	<stdlib.h>
+	<string.h>
+	<limits.h>
+	<math.h>
+	<stdio.h>
+	<assert.h>
+	<stdint.h>
+	<emmintrin.h>
+	<intrin.h>
+	<arm_neon.h>
+
+1529530241 source:c:\users\stuppzzzz\desktop\wolf3d clone\texture.cpp
+	"texture.h"
+	"stb_image.h"
+	"GL/glew.h"
+
+1524705704 source:c:\users\stuppzzzz\desktop\wolf3d clone\transform.cpp
+	"transform.h"
+
+1525889922 source:c:\users\stuppzzzz\desktop\wolf3d clone\vertex_array.cpp
+	"vertex_array.h"
+	"call.h"
+	"vertex_buffer_layout.h"
+
+1525983899 source:c:\users\stuppzzzz\desktop\wolf3d clone\vertex_buffer.cpp
+	"vertex_buffer.h"
+	"call.h"
+
+1529640347 c:\users\stuppzzzz\desktop\wolf3d clone\bitmap.h
+	"stdio.h"
+	"stdlib.h"
+	"stb_image.h"
+	"obj_loader.h"
+
+1529484851 c:\users\stuppzzzz\desktop\wolf3d clone\fuck_conio.h
+	<conio.h>
+	<stdio.h>
+	<stdlib.h>
+	<stdarg.h>
+	<windef.h>
+	<winbase.h>
+	<wincon.h>
+	"myconio.cpp"
+
+1529484855 c:\users\stuppzzzz\desktop\wolf3d clone\myconio.cpp
+
+1530943716 c:\users\stuppzzzz\desktop\wolf3d clone\level.h
+	"material.h"
+	"shader.h"
+	"shaders.h"
+	"bitmap.h"
+	"mesh.h"
+	"obj_loader.h"
+	"transform.h"
+	"camera.h"
+	"doors.h"
+
+1530943818 c:\users\stuppzzzz\desktop\wolf3d clone\player.h
+	"camera.h"
+	"input.h"
+	"enemies.h"
+
+1529555943 c:\users\stuppzzzz\desktop\wolf3d clone\doors.h
+	"transform.h"
+	"obj_loader.h"
+	"mesh.h"
+	"material.h"
+	"shader.h"
+
+1530943941 c:\users\stuppzzzz\desktop\wolf3d clone\enemies.h
+	"level.h"
+	"material.h"
+	"mesh.h"
+	"obj_loader.h"
+	"shader.h"
+	"texture.h"
+	"transform.h"
+	"TIMER.h"
+
+1530845475 c:\users\stuppzzzz\desktop\wolf3d clone\time.h
+	<chrono>
+
+1530849975 c:\users\stuppzzzz\desktop\wolf3d clone\timer.h
+	<chrono>
+
+1525890150 source:c:\users\stuppzzzz\documents\wolf3d clone\call.cpp
+
+1531678233 source:c:\users\stuppzzzz\documents\wolf3d clone\game.cpp
+	"game.h"
+	"material.h"
+	"shaders.h"
+	"terrain.h"
+	"stdio.h"
+	"thread"
+	"bitmap.h"
+	"level.h"
+	"player.h"
+	"enemies.h"
+	<vector>
+
+1531229228 c:\users\stuppzzzz\documents\wolf3d clone\game.h
+	"input.h"
+	"display.h"
+	"vector2f.h"
+	"vector3f.h"
+	"matrices.h"
+	"mesh.h"
+	"shader.h"
+	"resource_loader.h"
+	"obj_loader.h"
+	"vertex_array.h"
+	"vertex_buffer.h"
+	"vertex_buffer_layout.h"
+	"index_buffer.h"
+	"camera.h"
+	"texture.h"
+	"material.h"
+
+1529353860 c:\users\stuppzzzz\documents\wolf3d clone\input.h
+	<vector>
+	"display.h"
+
+1531550420 c:\users\stuppzzzz\documents\wolf3d clone\display.h
+	"GL/glew.h"
+	"GLFW/glfw3.h"
+	"vertex_array.h"
+	<stdio.h>
+	<string.h>
+
+1501501581 c:\users\stuppzzzz\documents\wolf3d clone\glew\include\gl\glew.h
+	<stddef.h>
+	<inttypes.h>
+	<stdint.h>
+	<inttypes.h>
+	<Availability.h>
+	<OpenGL/glu.h>
+	<GL/glu.h>
+
+1523853948 c:\users\stuppzzzz\documents\wolf3d clone\glfw\include\glfw\glfw3.h
+	<stddef.h>
+	<stdint.h>
+	<GLES/gl.h>
+	<GLES/glext.h>
+	<GLES2/gl2.h>
+	<GLES2/gl2ext.h>
+	<GLES3/gl3.h>
+	<GLES2/gl2ext.h>
+	<GLES3/gl31.h>
+	<GLES2/gl2ext.h>
+	<GLES3/gl32.h>
+	<GLES2/gl2ext.h>
+	<OpenGL/gl3.h>
+	<OpenGL/gl3ext.h>
+	<GL/glcorearb.h>
+	<OpenGL/gl.h>
+	<OpenGL/glu.h>
+	<GL/gl.h>
+	<GL/glext.h>
+	<GL/glu.h>
+	<vulkan/vulkan.h>
+
+1524673751 c:\users\stuppzzzz\documents\wolf3d clone\vertex_array.h
+	"vertex_buffer.h"
+
+1525979108 c:\users\stuppzzzz\documents\wolf3d clone\vertex_buffer.h
+	"obj_loader.h"
+	<GL/glew.h>
+
+1529908320 c:\users\stuppzzzz\documents\wolf3d clone\obj_loader.h
+	"glm/glm.hpp"
+	<vector>
+	<string>
+	"vector3f.h"
+	"vector2f.h"
+
+1502887718 c:\users\stuppzzzz\documents\wolf3d clone\glm\glm.hpp
+	"detail/_fixes.hpp"
+	<cmath>
+	<climits>
+	<cfloat>
+	<limits>
+	<cassert>
+	"fwd.hpp"
+	"vec2.hpp"
+	"vec3.hpp"
+	"vec4.hpp"
+	"mat2x2.hpp"
+	"mat2x3.hpp"
+	"mat2x4.hpp"
+	"mat3x2.hpp"
+	"mat3x3.hpp"
+	"mat3x4.hpp"
+	"mat4x2.hpp"
+	"mat4x3.hpp"
+	"mat4x4.hpp"
+	"trigonometric.hpp"
+	"exponential.hpp"
+	"common.hpp"
+	"packing.hpp"
+	"geometric.hpp"
+	"matrix.hpp"
+	"vector_relational.hpp"
+	"integer.hpp"
+
+1483566163 c:\users\stuppzzzz\documents\wolf3d clone\glm\detail\_fixes.hpp
+	<cmath>
+
+1502887718 c:\users\stuppzzzz\documents\wolf3d clone\glm\fwd.hpp
+	"detail/type_int.hpp"
+	"detail/type_float.hpp"
+	"detail/type_vec.hpp"
+	"detail/type_mat.hpp"
+
+1502887718 c:\users\stuppzzzz\documents\wolf3d clone\glm\detail\type_int.hpp
+	"setup.hpp"
+	<type_traits>
+	<cstdint>
+
+1502887718 c:\users\stuppzzzz\documents\wolf3d clone\glm\detail\setup.hpp
+	<cassert>
+	<cstddef>
+	"../simd/platform.h"
+
+1502887718 c:\users\stuppzzzz\documents\wolf3d clone\glm\simd\platform.h
+	<cuda.h>
+	<intrin.h>
+	<immintrin.h>
+	<immintrin.h>
+	<popcntintrin.h>
+	<nmmintrin.h>
+	<smmintrin.h>
+	<tmmintrin.h>
+	<pmmintrin.h>
+	<emmintrin.h>
+
+1502887718 c:\users\stuppzzzz\documents\wolf3d clone\glm\detail\type_float.hpp
+	"setup.hpp"
+
+1502887718 c:\users\stuppzzzz\documents\wolf3d clone\glm\detail\type_vec.hpp
+	"precision.hpp"
+	"type_int.hpp"
+
+1502887718 c:\users\stuppzzzz\documents\wolf3d clone\glm\detail\precision.hpp
+	"setup.hpp"
+
+1502887718 c:\users\stuppzzzz\documents\wolf3d clone\glm\detail\type_mat.hpp
+	"precision.hpp"
+
+1502887718 c:\users\stuppzzzz\documents\wolf3d clone\glm\vec2.hpp
+	"detail/type_vec2.hpp"
+
+1502887718 c:\users\stuppzzzz\documents\wolf3d clone\glm\detail\type_vec2.hpp
+	"type_vec.hpp"
+	"_swizzle.hpp"
+	"_swizzle_func.hpp"
+	<cstddef>
+	"type_vec2.inl"
+
+1502887718 c:\users\stuppzzzz\documents\wolf3d clone\glm\detail\_swizzle.hpp
+
+1502887718 c:\users\stuppzzzz\documents\wolf3d clone\glm\detail\_swizzle_func.hpp
+
+1502887718 c:\users\stuppzzzz\documents\wolf3d clone\glm\detail\type_vec2.inl
+
+1502887718 c:\users\stuppzzzz\documents\wolf3d clone\glm\vec3.hpp
+	"detail/type_vec3.hpp"
+
+1502887718 c:\users\stuppzzzz\documents\wolf3d clone\glm\detail\type_vec3.hpp
+	"type_vec.hpp"
+	"_swizzle.hpp"
+	"_swizzle_func.hpp"
+	<cstddef>
+	"type_vec3.inl"
+
+1502887718 c:\users\stuppzzzz\documents\wolf3d clone\glm\detail\type_vec3.inl
+
+1502887718 c:\users\stuppzzzz\documents\wolf3d clone\glm\vec4.hpp
+	"detail/type_vec4.hpp"
+
+1502887718 c:\users\stuppzzzz\documents\wolf3d clone\glm\detail\type_vec4.hpp
+	"type_vec.hpp"
+	"_swizzle.hpp"
+	"_swizzle_func.hpp"
+	<cstddef>
+	"type_vec4.inl"
+
+1502887718 c:\users\stuppzzzz\documents\wolf3d clone\glm\detail\type_vec4.inl
+	"type_vec4_simd.inl"
+
+1502887718 c:\users\stuppzzzz\documents\wolf3d clone\glm\detail\type_vec4_simd.inl
+
+1502887718 c:\users\stuppzzzz\documents\wolf3d clone\glm\mat2x2.hpp
+	"detail/type_mat2x2.hpp"
+
+1502887718 c:\users\stuppzzzz\documents\wolf3d clone\glm\detail\type_mat2x2.hpp
+	"../fwd.hpp"
+	"type_vec2.hpp"
+	"type_mat.hpp"
+	<limits>
+	<cstddef>
+	"type_mat2x2.inl"
+
+1502887718 c:\users\stuppzzzz\documents\wolf3d clone\glm\detail\type_mat2x2.inl
+	"func_matrix.hpp"
+
+1502887718 c:\users\stuppzzzz\documents\wolf3d clone\glm\detail\func_matrix.hpp
+	"../detail/precision.hpp"
+	"../detail/setup.hpp"
+	"../detail/type_mat.hpp"
+	"../vec2.hpp"
+	"../vec3.hpp"
+	"../vec4.hpp"
+	"../mat2x2.hpp"
+	"../mat2x3.hpp"
+	"../mat2x4.hpp"
+	"../mat3x2.hpp"
+	"../mat3x3.hpp"
+	"../mat3x4.hpp"
+	"../mat4x2.hpp"
+	"../mat4x3.hpp"
+	"../mat4x4.hpp"
+	"func_matrix.inl"
+
+1502887718 c:\users\stuppzzzz\documents\wolf3d clone\glm\mat2x3.hpp
+	"detail/type_mat2x3.hpp"
+
+1502887718 c:\users\stuppzzzz\documents\wolf3d clone\glm\detail\type_mat2x3.hpp
+	"../fwd.hpp"
+	"type_vec2.hpp"
+	"type_vec3.hpp"
+	"type_mat.hpp"
+	<limits>
+	<cstddef>
+	"type_mat2x3.inl"
+
+1502887718 c:\users\stuppzzzz\documents\wolf3d clone\glm\detail\type_mat2x3.inl
+
+1502887718 c:\users\stuppzzzz\documents\wolf3d clone\glm\mat2x4.hpp
+	"detail/type_mat2x4.hpp"
+
+1502887718 c:\users\stuppzzzz\documents\wolf3d clone\glm\detail\type_mat2x4.hpp
+	"../fwd.hpp"
+	"type_vec2.hpp"
+	"type_vec4.hpp"
+	"type_mat.hpp"
+	<limits>
+	<cstddef>
+	"type_mat2x4.inl"
+
+1502887718 c:\users\stuppzzzz\documents\wolf3d clone\glm\detail\type_mat2x4.inl
+
+1502887718 c:\users\stuppzzzz\documents\wolf3d clone\glm\mat3x2.hpp
+	"detail/type_mat3x2.hpp"
+
+1502887718 c:\users\stuppzzzz\documents\wolf3d clone\glm\detail\type_mat3x2.hpp
+	"../fwd.hpp"
+	"type_vec2.hpp"
+	"type_vec3.hpp"
+	"type_mat.hpp"
+	<limits>
+	<cstddef>
+	"type_mat3x2.inl"
+
+1502887718 c:\users\stuppzzzz\documents\wolf3d clone\glm\detail\type_mat3x2.inl
+
+1502887718 c:\users\stuppzzzz\documents\wolf3d clone\glm\mat3x3.hpp
+	"detail/type_mat3x3.hpp"
+
+1502887718 c:\users\stuppzzzz\documents\wolf3d clone\glm\detail\type_mat3x3.hpp
+	"../fwd.hpp"
+	"type_vec3.hpp"
+	"type_mat.hpp"
+	<limits>
+	<cstddef>
+	"type_mat3x3.inl"
+
+1502887718 c:\users\stuppzzzz\documents\wolf3d clone\glm\detail\type_mat3x3.inl
+	"func_matrix.hpp"
+
+1502887718 c:\users\stuppzzzz\documents\wolf3d clone\glm\mat3x4.hpp
+	"detail/type_mat3x4.hpp"
+
+1502887718 c:\users\stuppzzzz\documents\wolf3d clone\glm\detail\type_mat3x4.hpp
+	"../fwd.hpp"
+	"type_vec3.hpp"
+	"type_vec4.hpp"
+	"type_mat.hpp"
+	<limits>
+	<cstddef>
+	"type_mat3x4.inl"
+
+1502887718 c:\users\stuppzzzz\documents\wolf3d clone\glm\detail\type_mat3x4.inl
+
+1502887718 c:\users\stuppzzzz\documents\wolf3d clone\glm\mat4x2.hpp
+	"detail/type_mat4x2.hpp"
+
+1502887718 c:\users\stuppzzzz\documents\wolf3d clone\glm\detail\type_mat4x2.hpp
+	"../fwd.hpp"
+	"type_vec2.hpp"
+	"type_vec4.hpp"
+	"type_mat.hpp"
+	<limits>
+	<cstddef>
+	"type_mat4x2.inl"
+
+1502887718 c:\users\stuppzzzz\documents\wolf3d clone\glm\detail\type_mat4x2.inl
+
+1502887718 c:\users\stuppzzzz\documents\wolf3d clone\glm\mat4x3.hpp
+	"detail/type_mat4x3.hpp"
+
+1502887718 c:\users\stuppzzzz\documents\wolf3d clone\glm\detail\type_mat4x3.hpp
+	"../fwd.hpp"
+	"type_vec3.hpp"
+	"type_vec4.hpp"
+	"type_mat.hpp"
+	<limits>
+	<cstddef>
+	"type_mat4x3.inl"
+
+1502887718 c:\users\stuppzzzz\documents\wolf3d clone\glm\detail\type_mat4x3.inl
+
+1502887718 c:\users\stuppzzzz\documents\wolf3d clone\glm\mat4x4.hpp
+	"detail/type_mat4x4.hpp"
+
+1502887718 c:\users\stuppzzzz\documents\wolf3d clone\glm\detail\type_mat4x4.hpp
+	"../fwd.hpp"
+	"type_vec4.hpp"
+	"type_mat.hpp"
+	<limits>
+	<cstddef>
+	"type_mat4x4.inl"
+
+1502887718 c:\users\stuppzzzz\documents\wolf3d clone\glm\detail\type_mat4x4.inl
+	"func_matrix.hpp"
+	"type_mat4x4_simd.inl"
+
+1483566163 c:\users\stuppzzzz\documents\wolf3d clone\glm\detail\type_mat4x4_simd.inl
+
+1502887718 c:\users\stuppzzzz\documents\wolf3d clone\glm\detail\func_matrix.inl
+	"../geometric.hpp"
+	<limits>
+	"func_matrix_simd.inl"
+
+1502887718 c:\users\stuppzzzz\documents\wolf3d clone\glm\geometric.hpp
+	"detail/func_geometric.hpp"
+
+1502887718 c:\users\stuppzzzz\documents\wolf3d clone\glm\detail\func_geometric.hpp
+	"type_vec3.hpp"
+	"func_geometric.inl"
+
+1502887718 c:\users\stuppzzzz\documents\wolf3d clone\glm\detail\func_geometric.inl
+	"func_exponential.hpp"
+	"func_common.hpp"
+	"type_vec2.hpp"
+	"type_vec4.hpp"
+	"type_float.hpp"
+	"func_geometric_simd.inl"
+
+1502887718 c:\users\stuppzzzz\documents\wolf3d clone\glm\detail\func_exponential.hpp
+	"type_vec1.hpp"
+	"type_vec2.hpp"
+	"type_vec3.hpp"
+	"type_vec4.hpp"
+	<cmath>
+	"func_exponential.inl"
+
+1502887718 c:\users\stuppzzzz\documents\wolf3d clone\glm\detail\type_vec1.hpp
+	"../fwd.hpp"
+	"type_vec.hpp"
+	"_swizzle.hpp"
+	"_swizzle_func.hpp"
+	<cstddef>
+	"type_vec1.inl"
+
+1502887718 c:\users\stuppzzzz\documents\wolf3d clone\glm\detail\type_vec1.inl
+
+1502887718 c:\users\stuppzzzz\documents\wolf3d clone\glm\detail\func_exponential.inl
+	"func_vector_relational.hpp"
+	"_vectorize.hpp"
+	<limits>
+	<cmath>
+	<cassert>
+	"func_exponential_simd.inl"
+
+1502887718 c:\users\stuppzzzz\documents\wolf3d clone\glm\detail\func_vector_relational.hpp
+	"precision.hpp"
+	"setup.hpp"
+	"func_vector_relational.inl"
+
+1502887718 c:\users\stuppzzzz\documents\wolf3d clone\glm\detail\func_vector_relational.inl
+	<limits>
+	"func_vector_relational_simd.inl"
+
+1483566163 c:\users\stuppzzzz\documents\wolf3d clone\glm\detail\func_vector_relational_simd.inl
+
+1502887718 c:\users\stuppzzzz\documents\wolf3d clone\glm\detail\_vectorize.hpp
+	"type_vec1.hpp"
+	"type_vec2.hpp"
+	"type_vec3.hpp"
+	"type_vec4.hpp"
+
+1502887718 c:\users\stuppzzzz\documents\wolf3d clone\glm\detail\func_exponential_simd.inl
+	"../simd/exponential.h"
+
+1483566164 c:\users\stuppzzzz\documents\wolf3d clone\glm\simd\exponential.h
+	"platform.h"
+
+1502887718 c:\users\stuppzzzz\documents\wolf3d clone\glm\detail\func_common.hpp
+	"setup.hpp"
+	"precision.hpp"
+	"type_int.hpp"
+	"_fixes.hpp"
+	"func_common.inl"
+
+1502887718 c:\users\stuppzzzz\documents\wolf3d clone\glm\detail\func_common.inl
+	"func_vector_relational.hpp"
+	"type_vec2.hpp"
+	"type_vec3.hpp"
+	"type_vec4.hpp"
+	"_vectorize.hpp"
+	<limits>
+	"func_common_simd.inl"
+
+1502887718 c:\users\stuppzzzz\documents\wolf3d clone\glm\detail\func_common_simd.inl
+	"../simd/common.h"
+	<immintrin.h>
+
+1502887718 c:\users\stuppzzzz\documents\wolf3d clone\glm\simd\common.h
+	"platform.h"
+
+1502887718 c:\users\stuppzzzz\documents\wolf3d clone\glm\detail\func_geometric_simd.inl
+	"../simd/geometric.h"
+
+1483566164 c:\users\stuppzzzz\documents\wolf3d clone\glm\simd\geometric.h
+	"common.h"
+
+1502887718 c:\users\stuppzzzz\documents\wolf3d clone\glm\detail\func_matrix_simd.inl
+	"type_mat4x4.hpp"
+	"func_geometric.hpp"
+	"../simd/matrix.h"
+
+1502887718 c:\users\stuppzzzz\documents\wolf3d clone\glm\simd\matrix.h
+	"geometric.h"
+
+1502887718 c:\users\stuppzzzz\documents\wolf3d clone\glm\trigonometric.hpp
+	"detail/func_trigonometric.hpp"
+
+1502887718 c:\users\stuppzzzz\documents\wolf3d clone\glm\detail\func_trigonometric.hpp
+	"setup.hpp"
+	"precision.hpp"
+	"func_trigonometric.inl"
+
+1502887718 c:\users\stuppzzzz\documents\wolf3d clone\glm\detail\func_trigonometric.inl
+	"_vectorize.hpp"
+	<cmath>
+	<limits>
+	"func_trigonometric_simd.inl"
+
+1483566163 c:\users\stuppzzzz\documents\wolf3d clone\glm\detail\func_trigonometric_simd.inl
+
+1502887718 c:\users\stuppzzzz\documents\wolf3d clone\glm\exponential.hpp
+	"detail/func_exponential.hpp"
+
+1502887718 c:\users\stuppzzzz\documents\wolf3d clone\glm\common.hpp
+	"detail/func_common.hpp"
+
+1502887718 c:\users\stuppzzzz\documents\wolf3d clone\glm\packing.hpp
+	"detail/func_packing.hpp"
+
+1502887718 c:\users\stuppzzzz\documents\wolf3d clone\glm\detail\func_packing.hpp
+	"type_vec2.hpp"
+	"type_vec4.hpp"
+	"func_packing.inl"
+
+1502887718 c:\users\stuppzzzz\documents\wolf3d clone\glm\detail\func_packing.inl
+	"func_common.hpp"
+	"type_half.hpp"
+	"../fwd.hpp"
+	"func_packing_simd.inl"
+
+1502887718 c:\users\stuppzzzz\documents\wolf3d clone\glm\detail\type_half.hpp
+	"setup.hpp"
+	"type_half.inl"
+
+1502887718 c:\users\stuppzzzz\documents\wolf3d clone\glm\detail\type_half.inl
+
+1483566163 c:\users\stuppzzzz\documents\wolf3d clone\glm\detail\func_packing_simd.inl
+
+1502887718 c:\users\stuppzzzz\documents\wolf3d clone\glm\matrix.hpp
+	"detail/func_matrix.hpp"
+
+1502887718 c:\users\stuppzzzz\documents\wolf3d clone\glm\vector_relational.hpp
+	"detail/func_vector_relational.hpp"
+
+1502887718 c:\users\stuppzzzz\documents\wolf3d clone\glm\integer.hpp
+	"detail/func_integer.hpp"
+
+1502887718 c:\users\stuppzzzz\documents\wolf3d clone\glm\detail\func_integer.hpp
+	"setup.hpp"
+	"precision.hpp"
+	"func_common.hpp"
+	"func_vector_relational.hpp"
+	"func_integer.inl"
+
+1502887718 c:\users\stuppzzzz\documents\wolf3d clone\glm\detail\func_integer.inl
+	"type_vec2.hpp"
+	"type_vec3.hpp"
+	"type_vec4.hpp"
+	"type_int.hpp"
+	"_vectorize.hpp"
+	<intrin.h>
+	<limits>
+	"func_integer_simd.inl"
+
+1502887718 c:\users\stuppzzzz\documents\wolf3d clone\glm\detail\func_integer_simd.inl
+	"../simd/integer.h"
+
+1483566164 c:\users\stuppzzzz\documents\wolf3d clone\glm\simd\integer.h
+
+1530802967 c:\users\stuppzzzz\documents\wolf3d clone\vector3f.h
+	"vector2f.h"
+	"quaternions.h"
+
+1530920951 c:\users\stuppzzzz\documents\wolf3d clone\vector2f.h
+	<stdio.h>
+	<math.h>
+
+1527342190 c:\users\stuppzzzz\documents\wolf3d clone\quaternions.h
+	"math.h"
+
+1530855648 c:\users\stuppzzzz\documents\wolf3d clone\matrices.h
+	"stdio.h"
+
+1531119793 c:\users\stuppzzzz\documents\wolf3d clone\mesh.h
+	"GL/glew.h"
+	"obj_loader.h"
+	"shader.h"
+	"call.h"
+
+1529478215 c:\users\stuppzzzz\documents\wolf3d clone\shader.h
+	<unordered_map>
+	"glm/glm.hpp"
+	"transform.h"
+	"camera.h"
+	"point_lights.h"
+	"material.h"
+
+1529550990 c:\users\stuppzzzz\documents\wolf3d clone\transform.h
+	"glm/glm.hpp"
+	"glm/gtc/matrix_transform.hpp"
+	"glm/gtx/transform.hpp"
+	"vector3f.h"
+	"matrices.h"
+	"camera.h"
+
+1502887718 c:\users\stuppzzzz\documents\wolf3d clone\glm\gtc\matrix_transform.hpp
+	"../mat4x4.hpp"
+	"../vec2.hpp"
+	"../vec3.hpp"
+	"../vec4.hpp"
+	"../gtc/constants.hpp"
+	"matrix_transform.inl"
+
+1502887718 c:\users\stuppzzzz\documents\wolf3d clone\glm\gtc\constants.hpp
+	"../detail/setup.hpp"
+	"constants.inl"
+
+1502887718 c:\users\stuppzzzz\documents\wolf3d clone\glm\gtc\constants.inl
+	<limits>
+
+1502887718 c:\users\stuppzzzz\documents\wolf3d clone\glm\gtc\matrix_transform.inl
+	"../geometric.hpp"
+	"../trigonometric.hpp"
+	"../matrix.hpp"
+
+1502887718 c:\users\stuppzzzz\documents\wolf3d clone\glm\gtx\transform.hpp
+	"../glm.hpp"
+	"../gtc/matrix_transform.hpp"
+	"transform.inl"
+
+1502887718 c:\users\stuppzzzz\documents\wolf3d clone\glm\gtx\transform.inl
+
+1530045814 c:\users\stuppzzzz\documents\wolf3d clone\camera.h
+	"glm/glm.hpp"
+	"glm/gtc/matrix_transform.hpp"
+	"vector3f.h"
+
+1527626602 c:\users\stuppzzzz\documents\wolf3d clone\point_lights.h
+	"vertex_buffer.h"
+	"vector3f.h"
+
+1531114110 c:\users\stuppzzzz\documents\wolf3d clone\material.h
+	"texture.h"
+	"glm/glm.hpp"
+	"glm/gtc/matrix_transform.hpp"
+
+1529478555 c:\users\stuppzzzz\documents\wolf3d clone\texture.h
+
+1525890162 c:\users\stuppzzzz\documents\wolf3d clone\call.h
+
+1525885898 c:\users\stuppzzzz\documents\wolf3d clone\resource_loader.h
+	"glm/glm.hpp"
+	<vector>
+	<string.h>
+	"shader.h"
+
+1525898474 c:\users\stuppzzzz\documents\wolf3d clone\vertex_buffer_layout.h
+	<vector>
+	<gl/glew.h>
+	"call.h"
+
+1528573945 c:\users\stuppzzzz\documents\wolf3d clone\index_buffer.h
+	<vector>
+	"obj_loader.h"
+
+1530806223 c:\users\stuppzzzz\documents\wolf3d clone\shaders.h
+
+1527117855 c:\users\stuppzzzz\documents\wolf3d clone\terrain.h
+	"shader.h"
+
+1529640347 c:\users\stuppzzzz\documents\wolf3d clone\bitmap.h
+	"stdio.h"
+	"stdlib.h"
+	"stb_image.h"
+	"obj_loader.h"
+
+1523750593 c:\users\stuppzzzz\documents\wolf3d clone\stb_image.h
+	"stb_image.h"
+	<stdio.h>
+	<stdarg.h>
+	<stddef.h>
+	<stdlib.h>
+	<string.h>
+	<limits.h>
+	<math.h>
+	<stdio.h>
+	<assert.h>
+	<stdint.h>
+	<emmintrin.h>
+	<intrin.h>
+	<arm_neon.h>
+
+1531119568 c:\users\stuppzzzz\documents\wolf3d clone\level.h
+	"material.h"
+	"shader.h"
+	"shaders.h"
+	"bitmap.h"
+	"mesh.h"
+	"obj_loader.h"
+	"transform.h"
+	"camera.h"
+	"doors.h"
+
+1529555943 c:\users\stuppzzzz\documents\wolf3d clone\doors.h
+	"transform.h"
+	"obj_loader.h"
+	"mesh.h"
+	"material.h"
+	"shader.h"
+
+1531289306 c:\users\stuppzzzz\documents\wolf3d clone\player.h
+	"camera.h"
+	"input.h"
+	"enemies.h"
+
+1531234258 c:\users\stuppzzzz\documents\wolf3d clone\enemies.h
+	"level.h"
+	"material.h"
+	"mesh.h"
+	"obj_loader.h"
+	"shader.h"
+	"texture.h"
+	"transform.h"
+	"TIMER.h"
+
+1530849975 c:\users\stuppzzzz\documents\wolf3d clone\timer.h
+	<chrono>
+
+1525899802 source:c:\users\stuppzzzz\documents\wolf3d clone\index_buffer.cpp
+	"index_buffer.h"
+	<stdio.h>
+	"GL/glew.h"
+
+1531236576 source:c:\users\stuppzzzz\documents\wolf3d clone\input.cpp
+	"input.h"
+
+1531550611 source:c:\users\stuppzzzz\documents\wolf3d clone\main.cpp
+	"display.h"
+	"engine.h"
+	"mesh.h"
+	"obj_loader.h"
+
+1531678685 c:\users\stuppzzzz\documents\wolf3d clone\engine.h
+	<thread>
+	<stdio.h>
+	"game.h"
+	"input.h"
+	"render_util.h"
+	"transform.h"
+	"camera.h"
+	<unistd.h>
+	"GLFW/glfw3.h"
+	"texture.h"
+	"material.h"
+	"point_lights.h"
+	"enemies.h"
+	"player.h"
+	"TIMER.H"
+	<iostream>
+
+1529484622 c:\users\stuppzzzz\documents\wolf3d clone\render_util.h
+	<GL/glew.h>
+
+1529478555 source:c:\users\stuppzzzz\documents\wolf3d clone\material.cpp
+	"material.h"
+
+1418909075 source:c:\users\stuppzzzz\documents\wolf3d clone\obj_loader.cpp
+	"obj_loader.h"
+	<fstream>
+	<iostream>
+	<algorithm>
+	<map>
+
+1529436643 source:c:\users\stuppzzzz\documents\wolf3d clone\resource_loader.cpp
+	<stdio.h>
+	<string.h>
+	"call.h"
+	"resource_loader.h"
+	"GL/glew.h"
+	<unistd.h>
+
+1529478215 source:c:\users\stuppzzzz\documents\wolf3d clone\shader.cpp
+	"shader.h"
+	<stdio.h>
+	"GL/glew.h"
+
+1523750615 source:c:\users\stuppzzzz\documents\wolf3d clone\stbb_image.cpp
+	"stb_image.h"
+
+1529530241 source:c:\users\stuppzzzz\documents\wolf3d clone\texture.cpp
+	"texture.h"
+	"stb_image.h"
+	"GL/glew.h"
+
+1524705704 source:c:\users\stuppzzzz\documents\wolf3d clone\transform.cpp
+	"transform.h"
+
+1525889922 source:c:\users\stuppzzzz\documents\wolf3d clone\vertex_array.cpp
+	"vertex_array.h"
+	"call.h"
+	"vertex_buffer_layout.h"
+
+1525983899 source:c:\users\stuppzzzz\documents\wolf3d clone\vertex_buffer.cpp
+	"vertex_buffer.h"
+	"call.h"
+
